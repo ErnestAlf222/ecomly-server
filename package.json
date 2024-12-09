@@ -4,6 +4,7 @@
   "description": "ecommerce",
   "main": "app.js",
   "scripts": {
+    "start": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/ErnestAlf222/dbestech_ecomly/issues"
   },
-  "homepage": "https://github.com/ErnestAlf222/dbestech_ecomly#readme"
+  "homepage": "https://github.com/ErnestAlf222/dbestech_ecomly#readme",
+  "dependencies": {
+    "nodemon": "^3.1.7"
+  }
 }
